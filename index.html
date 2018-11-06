@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>What is PHP and Why Should I Care?</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/tan-purple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>What is PHP and Why Should I Care?</h2>
+					<p>Megan Rose | @megabyterose</p>
+					<small><em>megabyterose.com/what-is-php</em></small>
+					<aside class="notes">
+						This Meetup will introduce how WordPress works at a basic level. We will go over what PHP is, when/why you should upgrade your PHP version, and how to upgrade or where you can find upgrade instructions.
+					</aside>
+				</section>
+				<section>
+					<h3>About Me</h3>
+					<div class="alignleft fifty">
+							<p>Megan Rose</p>
+							<small><p><em>Systems &amp; Development Manager</em><br />
+							KHM Travel Group</p>
+							<p>Meetup Organizer<br />
+							Organized WordCamp Kent in June 2018<br />
+							Learned HTML &amp; CSS on Neopets</p></small>
+						</div>
+						<img alt="Megan Rose's Headshot" src="http://0.gravatar.com/avatar/f857ad96d1e1a525e49204935735036d?s=240&amp;d=blank&amp;r=pg" height="240" width="240" class="alignright">
+				</section>
+				<section>
+					<section>
+						<h3>What is WordPress?</h3>
+						<ul>
+							<li>WordPress.com vs WordPress.org</li>
+							<li>Open Source Project</li>
+							<li>Content Management System</li>
+						</ul>
+						<aside class="notes">
+							FIXME: Explain .com/.org & CMSs. List other CMSs. - Show stats? Differentiate between site/pagebuilders and CMSs.
+						</aside>
+					</section>
+					<section>
+						<h3>How Does WordPress Work?</h3>
+						<p>At a basic level, WordPress and other CMSs are comprised of files and a database.</p>
+						<aside class="notes">
+							FIXME
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>What is PHP?</h3>
+						<p>FIXME</p>
+						<aside class="notes">
+							FIXME: PHP is a web programming language.......
+						</aside>
+					</section>
+					<section>
+						<h3>PHP Version Timeline</h3>
+						<p>FIXME</p>
+						<aside class="notes">
+							FIXME
+						</aside>
+					</section>
+					<section>
+						<h3>PHP 7.2</h3>
+						<p>Main Benefits of Keeping PHP Up-To-Date</p>
+						<ul>
+							<li>Your website will be faster.</li>
+							<li>Your website will be more secure.
+							</li>
+						</ul>
+						<aside class="notes">
+							Some versions - 3-4x faster<br />
+							PHP 5.6 will no longer receive updates after the end of 2018
+						</aside>
+					</section>
+					<section>
+						<h3>PHP 5.6 Support</h3>
+						<p></p>
+						<aside class="notes">
+							FIXME
+						</aside>
+				</section>
+				<section>
+					<h3>What Can You Do?</h3>
+					<p>FIXME</p>
+					<aside class="notes">
+						FIXME: DIY or have others help you
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h3>Do-It-Yourself</h3>
+						<ol>
+							<li>Test your site on PHP 7.2 (local install).
+								<ul>
+									<li>Local Development on Windows <a href="http://bit.ly/wpneo-wamp" target="_blank">http://bit.ly/wpneo-wamp</a></li>
+								</ul>
+							</li>
+							<li>Look for anything out of the ordinary or error messages at the tops of pages (admin or front-end).
+							<li>Contact theme/plugin authors if anything doesn't work or if there are errors.</li>
+							<li>If everything looks good, switch your version on your host.</li>
+						</ol>
+						<aside class="notes">
+							FIXME: Testing on localhost
+						</aside>
+					</section>
+					<section>
+						<h3>Get Help Upgrading Your PHP Version</h3>
+						<p>Ask a web developer or your hosting company for assistance with any of the steps. Some hosts don't allow the user to change their PHP version, so you might have to contact your hosting company for that.</p>
+						<P>Sample Messages to Web Host: <a href="http://bit.ly/wpneo-php7" target="_blank">http://bit.ly/wpneo-php7</a></p>
+						<aside class="notes">
+							FIXME
+						</aside>
+					</section>
+				</section>
+				<section>
+					<h2>Thank You!</h2>
+					<p>Find me on twitter @megabyterose<br />
+					I blog at megabyterose.com</p>
+					<small><em>megabyterose.com/what-is-php</em></small>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
