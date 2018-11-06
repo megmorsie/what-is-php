@@ -1,4 +1,4 @@
-# What is PHP and Why Should I Care?
+# What is PHP and Why Should You Care?
 
 Slides for a presentation at [Northeast Ohio WordPress Meetup](https://www.meetup.com/NEOWordPress/events/wmhzdqyxpbjb/).
 
